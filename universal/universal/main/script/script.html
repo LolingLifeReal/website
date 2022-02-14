@@ -1,1 +1,10 @@
+local Games = {
+    [155615604] = "/prison.lua",
+    [537413528] = "/boat.lua"
+}
 
+if Games[game.PlaceId] then
+    loadstring(game.HttpGet(game, "https://lolinglife.xyz/universal/universal/main/script" .. Games[game.PlaceId]))()
+else 
+loadstring(game.HttpGet(game, "https://lolinglife.xyz/universal/universal/main/script/e.lua"))()
+end

